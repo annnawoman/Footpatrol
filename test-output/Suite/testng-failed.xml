@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="plppagetests.tests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="selectedOptionsTest"/>
+          <include name="goHome"/>
+          <include name="setUp"/>
+          <include name="selectFilter"/>
+        </methods>
+      </class> <!-- plppagetests.tests -->
+      <class name="loginpagetests.tests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="successfulLogin"/>
+          <include name="goHome"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- loginpagetests.tests -->
+      <class name="homepagetests.tests">
+        <methods>
+          <include name="restocksLink"/>
+          <include name="getLinksTitle"/>
+          <include name="tearDown"/>
+          <include name="goHome"/>
+          <include name="setUp"/>
+          <include name="Links"/>
+        </methods>
+      </class> <!-- homepagetests.tests -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="6" total="7" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-10-24T16:43:18Z" name="Default suite" finished-at="2021-10-24T16:43:31Z" duration-ms="12900">
+    <groups>
+    </groups>
+    <test started-at="2021-10-24T16:43:18Z" name="Default test" finished-at="2021-10-24T16:43:31Z" duration-ms="12900">
+      <class name="homepagetests.tests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:homepagetests.tests@55634720]" started-at="2021-10-24T16:43:18Z" name="setUp" finished-at="2021-10-24T16:43:28Z" duration-ms="9429" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="goHome()[pri:0, instance:homepagetests.tests@55634720]" started-at="2021-10-24T16:43:28Z" name="goHome" finished-at="2021-10-24T16:43:30Z" duration-ms="2054" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goHome -->
+        <test-method signature="menuTest()[pri:0, instance:homepagetests.tests@55634720]" started-at="2021-10-24T16:43:30Z" name="menuTest" finished-at="2021-10-24T16:43:30Z" duration-ms="137" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- menuTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:homepagetests.tests@55634720]" started-at="2021-10-24T16:43:30Z" name="tearDown" finished-at="2021-10-24T16:43:31Z" duration-ms="1151" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- homepagetests.tests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
